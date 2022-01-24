@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "enterprise-angular": "apps/enterprise-angular",
-    "enterprise-angular-e2e": "apps/enterprise-angular-e2e"
+    "enterprise-angular-e2e": "apps/enterprise-angular-e2e",
+    "shared-ui": "libs/shared-ui"
   }
 }
