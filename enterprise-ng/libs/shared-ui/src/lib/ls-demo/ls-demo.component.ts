@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'enterprise-ng-ls-demo',
   templateUrl: './ls-demo.component.html',
-  styleUrls: ['./ls-demo.component.css']
+  styleUrls: ['./ls-demo.component.css'],
 })
-export class LsDemoComponent implements OnInit {
+export class LsDemoComponent {}
 
-  constructor() { }
+export const someValue = 'someValue';
 
-  ngOnInit(): void {
-  }
 
-}
